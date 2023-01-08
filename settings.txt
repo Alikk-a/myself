@@ -1,0 +1,18 @@
+{"site_url":"http://localhost:8000",
+"site_title": "Albert Katasonov - Python development",
+"description": "Development on Python",
+"keywords": "Development on Python - Django, Flask, JavaScript etc",
+"name": "Albert Katasonov",
+"tag1":"Development on Python",
+"tag2":"Django, Flask, JavaScript etc.",
+"sect1":"Main",
+"sect2":"CV",
+"sect3":"Portfolio",
+"sect4":"---",
+"sect5":"Contact",
+"telegram":"https://t.me/ali_ksn",
+"linkedin":"https://www.linkedin.com/in/albert-katasonov-45b855242/",
+"vk":"---",
+"email":"mailto:albertkson@gmail.com",
+"city":"Germany"
+}
