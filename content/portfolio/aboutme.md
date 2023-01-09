@@ -9,4 +9,4 @@ sort: 3
 
 ###DESCRIPTION
 
-This site - Resume, Project ect.
+This site - Resume, Projects ect.

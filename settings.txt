@@ -1,4 +1,4 @@
-{"site_url":"http://localhost:8000",
+{"site_url":"http:https://alikk-a.github.io/myself/",
 "site_title": "Albert Katasonov - Python development",
 "description": "Development on Python",
 "keywords": "Development on Python - Django, Flask, JavaScript etc",
