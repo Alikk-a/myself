@@ -5,7 +5,7 @@ libraries: flask, flask_flatpages
 icon: bx bxs-award
 info: This site
 link: "/"
-sort: 3
+sort: 4
 
 ###DESCRIPTION
 
