@@ -1,4 +1,4 @@
-{"site_url":"http:https://alikk-a.github.io/myself/",
+{"site_url":"https://alikk-a.github.io/myself/",
 "site_title": "Albert Katasonov - Python development",
 "description": "Development on Python",
 "keywords": "Development on Python - Django, Flask, JavaScript etc",
@@ -13,6 +13,7 @@
 "telegram":"https://t.me/ali_ksn",
 "linkedin":"https://www.linkedin.com/in/albert-katasonov-45b855242/",
 "vk":"---",
+"resume":"https://navigatorway.com/media/Albert_Katasonov_EN.pdf",
 "email":"mailto:albertkson@gmail.com",
 "city":"Germany"
 }
