@@ -2,10 +2,10 @@ title: Chatbot
 description: Telegram Chatbot used to notify about significant events in the Crypto market - large and non-standard transactions of various coins.  
 category: Python
 libraries: Telethon
-icon: bx bxs-bar-chart-alt-2
+icon: bx bxl-telegram
 info: screenshot
 link: "/static/img/bot.png"
-sort: 5
+sort: 6
 
 ###DESCRIPTION
 

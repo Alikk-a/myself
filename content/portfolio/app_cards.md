@@ -1,5 +1,5 @@
 title: Cards
-description: Local application for memorizing English words.
+description: Local application for memorizing English words and phrases
 category: Tkinter, Bootstrap, SQLite
 libraries: Tkinter
 icon: bx bxs-notepad
