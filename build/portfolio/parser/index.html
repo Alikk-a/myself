@@ -31,19 +31,24 @@ body::before {
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
-            <h2 class="portfolio-title">Cards</h2>
+            <h2 class="portfolio-title">Data Scraping</h2>
           </div>
           <div class="col-lg-8 portfolio-info">
             <h3></h3>
             <ul>
-              <li><strong>For</strong>: Local application for memorizing English words and phrases</li>
-              <li><strong>Basic technologies</strong>: Tkinter, Bootstrap, Sqlite</li>
-              <li><strong>Basic libraries</strong>: Tkinter</li>
-              <li><strong>Link</strong>: <a href="/static/img/app_cards.png" target="new">screenshot</a></li>
+              <li><strong>For</strong>: application for automatic data scraping from websites with visualization</li>
+              <li><strong>Basic technologies</strong>: Selenium, Postgresql, Plotly, Docker</li>
+              <li><strong>Basic libraries</strong>: Selenium, BeautifulSoup, Dash</li>
+              <li><strong>Link</strong>: <a href="/static/img/parser_all.png" target="new">screenshot</a></li>
             </ul>
             <p>
               <h3>DESCRIPTION</h3>
-<p>An application that replaces paper cards for memorizing English words. Created for personal use and for learning GUI (Graphical User Interface)</p>
+<p>Application for collecting data from various websites. In this implementation, it is configured for regular parsing of open vacancies in a certain category on the leading recruiting platform in Ukraine.</p>
+<p>With a certain frequency, open vacancies on the platform are checked and all new ones are taken.</p>
+<p>A random User-agent is used to protect against blocking.</p>
+<p>All received data is added to the PostgreSQL database. A simple visual analytics on the Dash framework has also been added. Analytics can be complicated, but this was not the goal in this case.
+When certain events are triggered, the Telegram bot sends an alert.</p>
+<p>Optionally, the application can be deployed in Docker containers. This case uses 3 related docker containers.</p>
             </p>
           </div>
         </div>
