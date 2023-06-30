@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title></title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="/static/img/favicon.png" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="/static/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/static/assets/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/static/assets/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/static/assets/remixicon/remixicon.css" rel="stylesheet">
+  <link href="/static/assets/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/69e2443572.js" crossorigin="anonymous"></script>
+  <link href="/static/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/pygments.css">
+</head>
+<body>
+  <main id="main">
+
+<style>
+body::before {
+	background: #040404 url("/static/img/portfolio/post.jpg");
+}
+</style>
+    <!-- ======= шаблон для карточки портфолио ======= -->
+    <div id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">Data Scraping</h2>
+          </div>
+          <div class="col-lg-8 portfolio-info">
+            <h3></h3>
+            <ul>
+              <li><strong>For</strong>: application for automatic data scraping from websites with visualization</li>
+              <li><strong>Basic technologies</strong>: Selenium, Postgresql, Plotly, Docker</li>
+              <li><strong>Basic libraries</strong>: Selenium, BeautifulSoup, Dash</li>
+              <li><strong>Link</strong>: <a href="/static/img/parser_all.png" target="new">screenshot</a></li>
+            </ul>
+            <p>
+              <h3>DESCRIPTION</h3>
+<p>Application for collecting data from various websites. In this implementation, it is configured for regular parsing of open vacancies in a certain category on the leading recruiting platform in Ukraine.</p>
+<p>With a certain frequency, open vacancies on the platform are checked and all new ones are taken.</p>
+<p>A random User-agent is used to protect against blocking.</p>
+<p>All received data is added to the PostgreSQL database. A simple visual analytics on the Dash framework has also been added. Analytics can be complicated, but this was not the goal in this case.
+When certain events are triggered, the Telegram bot sends an alert.</p>
+<p>Optionally, the application can be deployed in Docker containers. This case uses 3 related docker containers.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- конец карточки -->
+  <!-- конец поста -->
+
+  </main>
+  <!-- Скрипты -->
+  <script src="/static/assets/purecounter/purecounter.js"></script>
+  <script src="/static/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/assets/glightbox/js/glightbox.min.js"></script>
+  <script src="/static/assets/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/static/assets/swiper/swiper-bundle.min.js"></script>
+  <script src="/static/assets/waypoints/noframework.waypoints.js"></script>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
